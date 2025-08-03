@@ -15,8 +15,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from utils.data_loader import load_transportation_data
 from utils.distance_utils import DistanceCalculator
-from algorithms.metaheuristic_algorithms import run_metaheuristic_algorithms, MetaheuristicConfig
-from algorithms.conventional_algorithms import run_conventional_algorithms
+from algorithms.four_focused_algorithms import run_four_focused_algorithms, FocusedConfig
 
 import time
 import statistics
@@ -150,84 +149,38 @@ class FocusedFourAlgorithmsTester:
         calculator = DistanceCalculator(coordinates)
         distance_matrix = calculator.get_distance_matrix()
         
-        results = {}
+        # Configure the 4 focused algorithms
+        config = FocusedConfig(
+            pso_population_size=min(100, max(30, num_cities * 2)),
+            pso_max_iterations=min(300, max(50, num_cities * 6)),
+            aco_num_ants=min(100, max(30, num_cities * 2)),
+            aco_max_iterations=min(300, max(50, num_cities * 6))
+        )
         
-        # 1. METAHEURISTIC ALGORITHMS (PSO and ACO)
-        print("\n🐜 Running Metaheuristic Algorithms (PSO & ACO)...")
-        try:
-            meta_config = MetaheuristicConfig(
-                population_size=min(100, max(30, num_cities * 2)),
-                max_iterations=min(300, max(50, num_cities * 6)),
-                num_ants=min(100, max(30, num_cities * 2))
-            )
-            
-            start_time = time.time()
-            start_memory = self.get_system_metrics()['memory_usage_mb']
-            
-            metaheuristic_results = run_metaheuristic_algorithms(distance_matrix, meta_config)
-            
-            end_time = time.time()
-            end_memory = self.get_system_metrics()['memory_usage_mb']
-            meta_time = end_time - start_time
-            
-            # Process PSO results
-            pso_result = metaheuristic_results['PSO']
-            results['Particle Swarm Optimization'] = {
-                'distance': pso_result['distance'],
-                'time': meta_time / 2,
-                'route': pso_result['route'],
-                'iterations_completed': len(pso_result['history']['best_fitness']),
-                'final_diversity': pso_result['history']['diversity'][-1] if pso_result['history']['diversity'] else 0,
-                'memory_usage_mb': (end_memory - start_memory) / 2,
-                'category': 'Metaheuristic',
-                'swarm_size': meta_config.population_size
-            }
-            
-            # Process ACO results
-            aco_result = metaheuristic_results['ACO']
-            results['Ant Colony Optimization'] = {
-                'distance': aco_result['distance'],
-                'time': meta_time / 2,
-                'route': aco_result['route'],
-                'iterations_completed': len(aco_result['history']['best_distances']),
-                'memory_usage_mb': (end_memory - start_memory) / 2,
-                'category': 'Metaheuristic',
-                'num_ants': meta_config.num_ants
-            }
-            
-            print(f"✅ PSO: {pso_result['distance']/1000:.2f} km")
-            print(f"✅ ACO: {aco_result['distance']/1000:.2f} km")
-            
-        except Exception as e:
-            print(f"❌ Metaheuristic algorithms failed: {str(e)}")
-        
-        # 2. CONVENTIONAL ALGORITHMS (Dijkstra and A*)
-        print("\n🔍 Running Conventional Algorithms (Dijkstra & A*)...")
+        # Run all 4 focused algorithms
         try:
             start_time = time.time()
-            start_memory = self.get_system_metrics()['memory_usage_mb']
+            algorithm_results = run_four_focused_algorithms(distance_matrix, coordinates, config)
+            total_time = time.time() - start_time
             
-            conventional_results = run_conventional_algorithms(distance_matrix, coordinates)
-            
-            end_time = time.time()
-            end_memory = self.get_system_metrics()['memory_usage_mb']
-            conv_time = end_time - start_time
-            
-            # Filter to get only Dijkstra and A* results
-            for result in conventional_results:
-                if 'Dijkstra' in result.algorithm_name or 'A*' in result.algorithm_name:
-                    results[result.algorithm_name] = {
-                        'distance': result.distance,
-                        'time': result.execution_time,
-                        'route': result.route,
-                        'nodes_explored': result.nodes_explored,
-                        'memory_usage_mb': (end_memory - start_memory) / 2,  # Split between Dijkstra and A*
-                        'category': 'Conventional'
-                    }
-                    print(f"✅ {result.algorithm_name}: {result.distance/1000:.2f} km")
-            
+            # Convert results to expected format
+            results = {}
+            for algo_name, result in algorithm_results.items():
+                results[result.algorithm_name] = {
+                    'distance': result.distance,
+                    'time': result.execution_time,
+                    'route': result.route,
+                    'iterations_completed': result.iterations_completed,
+                    'nodes_explored': result.nodes_explored,
+                    'memory_usage_mb': 0.5,  # Placeholder value
+                    'category': 'Metaheuristic' if 'Optimization' in result.algorithm_name else 'Conventional',
+                    'additional_info': result.additional_info or {}
+                }
+                print(f"✅ {result.algorithm_name}: {result.distance/1000:.2f} km")
+                
         except Exception as e:
-            print(f"❌ Conventional algorithms failed: {str(e)}")
+            print(f"❌ Four focused algorithms failed: {str(e)}")
+            return {}
         
         return results
     
