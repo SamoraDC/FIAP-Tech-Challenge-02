@@ -1,9 +1,9 @@
-# FIAP Tech Challenge Phase 2 - Advanced TSP Optimization with Four Focused Algorithms
+# FIAP Tech Challenge - Advanced TSP Optimization with Four Focused Algorithms
 
 ## 🎯 Multi-Algorithm Comparison for Transportation Route Optimization
 
 **Institution:** FIAP (Faculdade de Informática e Administração Paulista)
-**Challenge:** Phase 2 - Advanced Algorithm Implementation and Analysis
+**Challenge:** Advanced Algorithm Implementation and Analysis
 **Research Focus:** Traveling Salesman Problem (TSP) optimization using Brazilian transportation network data
 **Dataset:** 1,000 Brazilian geographic locations with ~500,000 weighted transportation connections
 **Algorithms:** Particle Swarm Optimization, Ant Colony Optimization, Dijkstra-Enhanced, A*-Enhanced
@@ -13,7 +13,6 @@
 [![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Processing-green)](https://networkx.org)
 [![Pygame](https://img.shields.io/badge/Pygame-Interactive%20Viz-red)](https://pygame.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 
 ---
 
@@ -787,7 +786,7 @@ def parameter_sweep_study():
                 aco_num_ants=50,
                 aco_max_iterations=100
             )
-      
+    
             result = run_four_focused_algorithms(distance_matrix, coordinates, config)
             results[f"ACO_a{alpha}_b{beta}"] = {
                 'distance': result['ACO'].distance,
@@ -1212,7 +1211,7 @@ def ant_colony_optimization(distance_matrix: np.ndarray,
             - best_distance: Total tour distance (float)
             - convergence_history: Iteration-wise improvement (List[float])
             - execution_metrics: Time and memory usage statistics
-      
+    
     Complexity:
         Time: O(I × M × N²) where I=iterations, M=ants, N=cities
         Space: O(N² + M × N) for pheromone matrix and ant memory
