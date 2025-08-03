@@ -1,0 +1,770 @@
+{
+  "8_cities": {
+    "raw_results": {
+      "run_1": {
+        "Genetic Algorithm": {
+          "distance": 49626.179596141716,
+          "time": 0.04787039756774902,
+          "convergence_rate": 2.932306163156314e-16,
+          "final_diversity": 0.4860576923076923,
+          "generations": 64,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 7,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 49357.15929306918,
+          "time": 0.0,
+          "nodes_explored": 8,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 49637.594567681255,
+          "time": 0.0,
+          "nodes_explored": 8,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 7,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 14,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 49637.594567681255,
+          "time": 0.02284538745880127,
+          "final_diversity": 0.39311594202898553,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 49357.15929306917,
+          "time": 0.02284538745880127,
+          "category": "Metaheuristic"
+        }
+      },
+      "run_2": {
+        "Genetic Algorithm": {
+          "distance": 49357.15929306918,
+          "time": 0.043965816497802734,
+          "convergence_rate": 0.005518541522815717,
+          "final_diversity": 0.5615384615384615,
+          "generations": 64,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 7,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 49357.15929306918,
+          "time": 0.0,
+          "nodes_explored": 8,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 49637.594567681255,
+          "time": 0.0,
+          "nodes_explored": 8,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 7,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 14,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 49626.17959614173,
+          "time": 0.06652700901031494,
+          "final_diversity": 0.5086050724637681,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 49626.17959614172,
+          "time": 0.06652700901031494,
+          "category": "Metaheuristic"
+        }
+      },
+      "run_3": {
+        "Genetic Algorithm": {
+          "distance": 49357.15929306917,
+          "time": 0.11609911918640137,
+          "convergence_rate": 0.027681833274662122,
+          "final_diversity": 0.6416666666666667,
+          "generations": 64,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 7,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 49357.15929306918,
+          "time": 0.0,
+          "nodes_explored": 8,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 49637.594567681255,
+          "time": 0.0,
+          "nodes_explored": 8,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 7,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 50762.35432204124,
+          "time": 0.0,
+          "nodes_explored": 14,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 49357.15929306918,
+          "time": 0.035950422286987305,
+          "final_diversity": 0.328804347826087,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 49357.15929306917,
+          "time": 0.035950422286987305,
+          "category": "Metaheuristic"
+        }
+      }
+    },
+    "statistics": {
+      "Ant Colony Optimization": {
+        "distance_mean": 49446.832727426685,
+        "distance_std": 155.3189443964134,
+        "distance_min": 49357.15929306917,
+        "distance_max": 49626.17959614172,
+        "time_mean": 0.04177427291870117,
+        "time_std": 0.02241559596526047,
+        "time_min": 0.02284538745880127,
+        "time_max": 0.06652700901031494,
+        "runs": 3,
+        "category": "Metaheuristic"
+      },
+      "Genetic Algorithm": {
+        "distance_mean": 49446.832727426685,
+        "distance_std": 155.3189443964071,
+        "distance_min": 49357.15929306917,
+        "distance_max": 49626.179596141716,
+        "time_mean": 0.06931177775065105,
+        "time_std": 0.040566031692809874,
+        "time_min": 0.043965816497802734,
+        "time_max": 0.11609911918640137,
+        "runs": 3,
+        "category": "Evolutionary"
+      },
+      "Cheapest Insertion": {
+        "distance_mean": 49357.15929306918,
+        "distance_std": 0.0,
+        "distance_min": 49357.15929306918,
+        "distance_max": 49357.15929306918,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance_mean": 49637.594567681255,
+        "distance_std": 0.0,
+        "distance_min": 49637.594567681255,
+        "distance_max": 49637.594567681255,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance_mean": 50762.35432204124,
+        "distance_std": 0.0,
+        "distance_min": 50762.35432204124,
+        "distance_max": 50762.35432204124,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance_mean": 49540.311152297385,
+        "distance_std": 158.71681715519233,
+        "distance_min": 49357.15929306918,
+        "distance_max": 49637.594567681255,
+        "time_mean": 0.04177427291870117,
+        "time_std": 0.02241559596526047,
+        "time_min": 0.02284538745880127,
+        "time_max": 0.06652700901031494,
+        "runs": 3,
+        "category": "Metaheuristic"
+      },
+      "Nearest Neighbor": {
+        "distance_mean": 50762.35432204124,
+        "distance_std": 0.0,
+        "distance_min": 50762.35432204124,
+        "distance_max": 50762.35432204124,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance_mean": 50762.35432204124,
+        "distance_std": 0.0,
+        "distance_min": 50762.35432204124,
+        "distance_max": 50762.35432204124,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 8
+  },
+  "12_cities": {
+    "raw_results": {
+      "run_1": {
+        "Genetic Algorithm": {
+          "distance": 100071.21288353576,
+          "time": 0.15784645080566406,
+          "convergence_rate": 0.07366863439881,
+          "final_diversity": 0.6224961479198767,
+          "generations": 96,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 101307.5122984512,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 100071.21288353577,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 20,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 101949.08436821456,
+          "time": 0.07759654521942139,
+          "final_diversity": 0.2842712842712843,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 100071.21288353576,
+          "time": 0.07759654521942139,
+          "category": "Metaheuristic"
+        }
+      },
+      "run_2": {
+        "Genetic Algorithm": {
+          "distance": 100071.21288353576,
+          "time": 0.1581745147705078,
+          "convergence_rate": 0.11998203584945638,
+          "final_diversity": 0.5846944016435542,
+          "generations": 96,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 101307.5122984512,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 100071.21288353577,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 20,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 100071.21288353579,
+          "time": 0.07985997200012207,
+          "final_diversity": 0.3294372294372294,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 100071.21288353576,
+          "time": 0.07985997200012207,
+          "category": "Metaheuristic"
+        }
+      },
+      "run_3": {
+        "Genetic Algorithm": {
+          "distance": 100071.21288353576,
+          "time": 0.1565709114074707,
+          "convergence_rate": 0.11998203584945638,
+          "final_diversity": 0.5565485362095531,
+          "generations": 96,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 101307.5122984512,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 100071.21288353577,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 20,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 103166.13649428957,
+          "time": 0.07819867134094238,
+          "final_diversity": 0.30937950937950937,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 100071.21288353576,
+          "time": 0.07819867134094238,
+          "category": "Metaheuristic"
+        }
+      }
+    },
+    "statistics": {
+      "Ant Colony Optimization": {
+        "distance_mean": 100071.21288353576,
+        "distance_std": 0.0,
+        "distance_min": 100071.21288353576,
+        "distance_max": 100071.21288353576,
+        "time_mean": 0.07855172952016194,
+        "time_std": 0.0011722895360505613,
+        "time_min": 0.07759654521942139,
+        "time_max": 0.07985997200012207,
+        "runs": 3,
+        "category": "Metaheuristic"
+      },
+      "Genetic Algorithm": {
+        "distance_mean": 100071.21288353576,
+        "distance_std": 0.0,
+        "distance_min": 100071.21288353576,
+        "distance_max": 100071.21288353576,
+        "time_mean": 0.1575306256612142,
+        "time_std": 0.0008471688603142042,
+        "time_min": 0.1565709114074707,
+        "time_max": 0.1581745147705078,
+        "runs": 3,
+        "category": "Evolutionary"
+      },
+      "Cheapest Insertion": {
+        "distance_mean": 101307.5122984512,
+        "distance_std": 0.0,
+        "distance_min": 101307.5122984512,
+        "distance_max": 101307.5122984512,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance_mean": 100071.21288353577,
+        "distance_std": 0.0,
+        "distance_min": 100071.21288353577,
+        "distance_max": 100071.21288353577,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance_mean": 113714.96601223551,
+        "distance_std": 0.0,
+        "distance_min": 113714.96601223551,
+        "distance_max": 113714.96601223551,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance_mean": 101728.81124867998,
+        "distance_std": 1559.175495091056,
+        "distance_min": 100071.21288353579,
+        "distance_max": 103166.13649428957,
+        "time_mean": 0.07855172952016194,
+        "time_std": 0.0011722895360505613,
+        "time_min": 0.07759654521942139,
+        "time_max": 0.07985997200012207,
+        "runs": 3,
+        "category": "Metaheuristic"
+      },
+      "Nearest Neighbor": {
+        "distance_mean": 113714.96601223551,
+        "distance_std": 0.0,
+        "distance_min": 113714.96601223551,
+        "distance_max": 113714.96601223551,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance_mean": 113714.96601223551,
+        "distance_std": 0.0,
+        "distance_min": 113714.96601223551,
+        "distance_max": 113714.96601223551,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 12
+  },
+  "16_cities": {
+    "raw_results": {
+      "run_1": {
+        "Genetic Algorithm": {
+          "distance": 100071.21288353576,
+          "time": 0.3606576919555664,
+          "convergence_rate": 0.09977467269135688,
+          "final_diversity": 0.5046317606444188,
+          "generations": 128,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 101307.5122984512,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 100071.21288353577,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 20,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 102053.10587026838,
+          "time": 0.12669622898101807,
+          "final_diversity": 0.25427143778207606,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 100071.21288353576,
+          "time": 0.12669622898101807,
+          "category": "Metaheuristic"
+        }
+      },
+      "run_2": {
+        "Genetic Algorithm": {
+          "distance": 101714.0454443941,
+          "time": 0.34373903274536133,
+          "convergence_rate": 0.03897327589801769,
+          "final_diversity": 0.6347238204833141,
+          "generations": 128,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 101307.5122984512,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 100071.21288353577,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 20,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 100071.21288353577,
+          "time": 0.12752211093902588,
+          "final_diversity": 0.256608639587363,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 100071.21288353576,
+          "time": 0.12752211093902588,
+          "category": "Metaheuristic"
+        }
+      },
+      "run_3": {
+        "Genetic Algorithm": {
+          "distance": 100787.79464420959,
+          "time": 0.3613433837890625,
+          "convergence_rate": 0.10094152847146283,
+          "final_diversity": 0.5382336018411967,
+          "generations": 128,
+          "category": "Evolutionary"
+        },
+        "Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0009932518005371094,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "Cheapest Insertion": {
+          "distance": 101307.5122984512,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Farthest Insertion": {
+          "distance": 100071.21288353577,
+          "time": 0.0,
+          "nodes_explored": 11,
+          "category": "Conventional"
+        },
+        "Dijkstra-Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0,
+          "nodes_explored": 10,
+          "category": "Conventional"
+        },
+        "A* Enhanced Nearest Neighbor": {
+          "distance": 113714.96601223551,
+          "time": 0.0009913444519042969,
+          "nodes_explored": 20,
+          "category": "Conventional"
+        },
+        "Particle Swarm Optimization": {
+          "distance": 101868.20318381889,
+          "time": 0.1193397045135498,
+          "final_diversity": 0.2958575112830432,
+          "category": "Metaheuristic"
+        },
+        "Ant Colony Optimization": {
+          "distance": 100071.21288353576,
+          "time": 0.1193397045135498,
+          "category": "Metaheuristic"
+        }
+      }
+    },
+    "statistics": {
+      "Ant Colony Optimization": {
+        "distance_mean": 100071.21288353576,
+        "distance_std": 0.0,
+        "distance_min": 100071.21288353576,
+        "distance_max": 100071.21288353576,
+        "time_mean": 0.12451934814453125,
+        "time_std": 0.0045046699501867715,
+        "time_min": 0.1193397045135498,
+        "time_max": 0.12752211093902588,
+        "runs": 3,
+        "category": "Metaheuristic"
+      },
+      "Genetic Algorithm": {
+        "distance_mean": 100857.68432404648,
+        "distance_std": 823.6432062882997,
+        "distance_min": 100071.21288353576,
+        "distance_max": 101714.0454443941,
+        "time_mean": 0.35524670282999676,
+        "time_std": 0.009971830143220475,
+        "time_min": 0.34373903274536133,
+        "time_max": 0.3613433837890625,
+        "runs": 3,
+        "category": "Evolutionary"
+      },
+      "Cheapest Insertion": {
+        "distance_mean": 101307.5122984512,
+        "distance_std": 0.0,
+        "distance_min": 101307.5122984512,
+        "distance_max": 101307.5122984512,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance_mean": 100071.21288353577,
+        "distance_std": 0.0,
+        "distance_min": 100071.21288353577,
+        "distance_max": 100071.21288353577,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance_mean": 113714.96601223551,
+        "distance_std": 0.0,
+        "distance_min": 113714.96601223551,
+        "distance_max": 113714.96601223551,
+        "time_mean": 0.0003304481506347656,
+        "time_std": 0.0005723529861665878,
+        "time_min": 0.0,
+        "time_max": 0.0009913444519042969,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance_mean": 101330.84064587434,
+        "distance_std": 1094.7802636166864,
+        "distance_min": 100071.21288353577,
+        "distance_max": 102053.10587026838,
+        "time_mean": 0.12451934814453125,
+        "time_std": 0.0045046699501867715,
+        "time_min": 0.1193397045135498,
+        "time_max": 0.12752211093902588,
+        "runs": 3,
+        "category": "Metaheuristic"
+      },
+      "Nearest Neighbor": {
+        "distance_mean": 113714.96601223551,
+        "distance_std": 0.0,
+        "distance_min": 113714.96601223551,
+        "distance_max": 113714.96601223551,
+        "time_mean": 0.0003310839335123698,
+        "time_std": 0.0005734541944131806,
+        "time_min": 0.0,
+        "time_max": 0.0009932518005371094,
+        "runs": 3,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance_mean": 113714.96601223551,
+        "distance_std": 0.0,
+        "distance_min": 113714.96601223551,
+        "distance_max": 113714.96601223551,
+        "time_mean": 0.0,
+        "time_std": 0.0,
+        "time_min": 0.0,
+        "time_max": 0.0,
+        "runs": 3,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 16
+  }
+}
