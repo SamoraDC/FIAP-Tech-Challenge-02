@@ -1,0 +1,29 @@
+problem_size,dataset_coverage_percent,algorithm,distance_km,execution_time_seconds,nodes_explored,iterations_completed,route_length,complexity_category,memory_delta_mb,scale_factor
+20,2.0,Particle Swarm Optimization,100.07121288353578,0.12151598930358887,0,100,11,Small,2.3359375,1.0
+20,2.0,Ant Colony Optimization,100.07121288353576,0.27781224250793457,0,100,11,Small,2.3359375,1.0
+20,2.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Small,2.3359375,1.0
+20,2.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Small,2.3359375,1.0
+30,3.0,Particle Swarm Optimization,101.94908436821459,0.14748668670654297,0,100,11,Small,2.09765625,1.0
+30,3.0,Ant Colony Optimization,100.07121288353576,0.34028148651123047,0,100,11,Small,2.09765625,1.0
+30,3.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Small,2.09765625,1.0
+30,3.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Small,2.09765625,1.0
+50,5.0,Particle Swarm Optimization,100.7877946442096,0.7232339382171631,0,150,11,Medium,0.27734375,1.0
+50,5.0,Ant Colony Optimization,100.07121288353576,0.8628320693969727,0,150,11,Medium,0.27734375,1.0
+50,5.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Medium,0.27734375,1.0
+50,5.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Medium,0.27734375,1.0
+80,8.0,Particle Swarm Optimization,102.02813985774804,2.192652463912964,0,240,11,Medium,0.296875,1.0
+80,8.0,Ant Colony Optimization,100.07121288353576,2.062727451324463,0,240,11,Medium,0.296875,1.0
+80,8.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Medium,0.296875,1.0
+80,8.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Medium,0.296875,1.0
+120,12.0,Particle Swarm Optimization,100.07121288353578,4.909061908721924,0,360,11,Large,0.02734375,1.0
+120,12.0,Ant Colony Optimization,100.07121288353576,3.71867036819458,0,360,11,Large,0.02734375,1.0
+120,12.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Large,0.02734375,1.0
+120,12.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Large,0.02734375,1.0
+150,15.0,Particle Swarm Optimization,101.30751229845121,6.0342793464660645,0,450,11,Large,0.05078125,1.0
+150,15.0,Ant Colony Optimization,100.07121288353576,4.641924619674683,0,450,11,Large,0.05078125,1.0
+150,15.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Large,0.05078125,1.0
+150,15.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Large,0.05078125,1.0
+200,20.0,Particle Swarm Optimization,100.07121288353578,6.811640024185181,0,500,11,Very Large,-0.03125,1.0
+200,20.0,Ant Colony Optimization,100.07121288353576,6.5505290031433105,0,500,11,Very Large,-0.03125,1.0
+200,20.0,Dijkstra-Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Very Large,-0.03125,1.0
+200,20.0,A* Enhanced Nearest Neighbor,113.71496601223551,0.0,10,0,11,Very Large,-0.03125,1.0

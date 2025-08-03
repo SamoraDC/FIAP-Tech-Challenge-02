@@ -1,0 +1,91 @@
+{
+  "overall_performance": {
+    "Particle Swarm Optimization": {
+      "avg_distance_km": 100.89802425989011,
+      "std_distance_km": 0.8767906243736661,
+      "min_distance_km": 100.07121288353578,
+      "max_distance_km": 102.02813985774804,
+      "avg_execution_time": 2.991410051073347,
+      "total_tests": 7
+    },
+    "Ant Colony Optimization": {
+      "avg_distance_km": 100.07121288353575,
+      "std_distance_km": 1.5349477418661813e-14,
+      "min_distance_km": 100.07121288353576,
+      "max_distance_km": 100.07121288353576,
+      "avg_execution_time": 2.636396748679025,
+      "total_tests": 7
+    },
+    "Dijkstra-Enhanced Nearest Neighbor": {
+      "avg_distance_km": 113.71496601223552,
+      "std_distance_km": 1.5349477418661813e-14,
+      "min_distance_km": 113.71496601223551,
+      "max_distance_km": 113.71496601223551,
+      "avg_execution_time": 0.0,
+      "total_tests": 7
+    },
+    "A* Enhanced Nearest Neighbor": {
+      "avg_distance_km": 113.71496601223552,
+      "std_distance_km": 1.5349477418661813e-14,
+      "min_distance_km": 113.71496601223551,
+      "max_distance_km": 113.71496601223551,
+      "avg_execution_time": 0.0,
+      "total_tests": 7
+    }
+  },
+  "algorithm_rankings": {
+    "20_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ],
+    "30_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ],
+    "50_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ],
+    "80_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ],
+    "120_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ],
+    "150_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ],
+    "200_cities": [
+      "Ant Colony Optimization",
+      "Particle Swarm Optimization",
+      "Dijkstra-Enhanced Nearest Neighbor",
+      "A* Enhanced Nearest Neighbor"
+    ]
+  },
+  "scalability_analysis": {
+    "Particle Swarm Optimization": {
+      "avg_growth_rate": 1.4947971915374598,
+      "scalability_category": "Excellent"
+    },
+    "Ant Colony Optimization": {
+      "avg_growth_rate": 1.181828578086259,
+      "scalability_category": "Excellent"
+    }
+  },
+  "execution_time_analysis": {}
+}

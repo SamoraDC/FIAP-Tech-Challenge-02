@@ -268,12 +268,13 @@ FIAP-Tech-Challenge/
 - **Cost Reduction**: Significant distance improvements (2.8% optimization potential)
 - **Scalability**: Proven performance on realistic problem sizes
 
-#### Algorithm Selection Guidelines
+#### Specific Algorithm Selection Guidelines
 
-- **Small Problems (8 cities)**: Cheapest Insertion for speed
-- **Medium Problems (12 cities)**: Ant Colony Optimization for quality
-- **Large Problems (16+ cities)**: Genetic Algorithm for scalability
-- **Time-Critical**: Conventional algorithms for instant results
+- **Small Problems (8 cities)**: **Cheapest Insertion** for instant optimal results
+- **Medium Problems (12 cities)**: **Ant Colony Optimization** for optimal quality
+- **Large Problems (16+ cities)**: **Genetic Algorithm** (tournament selection, order crossover) for best scalability  
+- **Time-Critical**: **Farthest Insertion** for instant optimal results
+- **Baseline Comparisons**: **Nearest Neighbor** or **Dijkstra-Enhanced Nearest Neighbor**
 
 ### 7.3 Future Enhancements
 

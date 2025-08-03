@@ -1,0 +1,937 @@
+{
+  "15_cities": {
+    "algorithm_results": {
+      "Genetic Algorithm": {
+        "distance": 101307.51229845118,
+        "time": 0.3231544494628906,
+        "route": [
+          4,
+          1,
+          2,
+          10,
+          9,
+          7,
+          0,
+          3,
+          5,
+          8,
+          6
+        ],
+        "generations_completed": 150,
+        "final_diversity": 0.6073959938366718,
+        "convergence_rate": 0.07044252319913852,
+        "memory_usage_mb": 0.08203125,
+        "category": "Evolutionary",
+        "population_size": 60,
+        "total_evaluations": 9000
+      },
+      "Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0015625,
+        "category": "Conventional"
+      },
+      "Cheapest Insertion": {
+        "distance": 101307.5122984512,
+        "time": 0.0,
+        "route": [
+          0,
+          3,
+          5,
+          8,
+          6,
+          4,
+          1,
+          2,
+          10,
+          9,
+          7
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0015625,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance": 100071.21288353577,
+        "time": 0.0,
+        "route": [
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0015625,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0015625,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0015625,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance": 102028.13985774804,
+        "time": 0.13462626934051514,
+        "route": [
+          1,
+          4,
+          6,
+          8,
+          5,
+          2,
+          3,
+          0,
+          7,
+          9,
+          10
+        ],
+        "iterations_completed": 90,
+        "final_diversity": 0.2284221525600836,
+        "memory_usage_mb": 0.015625,
+        "category": "Metaheuristic",
+        "swarm_size": 30
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 0.13462626934051514,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 90,
+        "memory_usage_mb": 0.015625,
+        "category": "Metaheuristic",
+        "num_ants": 30
+      }
+    },
+    "problem_size": 15,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 75.83203125,
+        "memory_percent": 0.4719480900858326,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:14.817983"
+      },
+      "post_test": {
+        "memory_usage_mb": 76.9765625,
+        "memory_percent": 0.4790465160827968,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:15.470135"
+      },
+      "memory_delta_mb": 1.14453125
+    }
+  },
+  "25_cities": {
+    "algorithm_results": {
+      "Genetic Algorithm": {
+        "distance": 101868.20318381889,
+        "time": 1.6243760585784912,
+        "route": [
+          10,
+          2,
+          5,
+          8,
+          6,
+          4,
+          1,
+          3,
+          0,
+          7,
+          9
+        ],
+        "generations_completed": 250,
+        "final_diversity": 0.5870707070707071,
+        "convergence_rate": 0.09568865267776272,
+        "memory_usage_mb": 0.015625,
+        "category": "Evolutionary",
+        "population_size": 100,
+        "total_evaluations": 25000
+      },
+      "Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Cheapest Insertion": {
+        "distance": 101307.5122984512,
+        "time": 0.0,
+        "route": [
+          0,
+          3,
+          5,
+          8,
+          6,
+          4,
+          1,
+          2,
+          10,
+          9,
+          7
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance": 100071.21288353577,
+        "time": 0.0,
+        "route": [
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance": 101868.20318381889,
+        "time": 0.3916565179824829,
+        "route": [
+          10,
+          2,
+          5,
+          8,
+          6,
+          4,
+          1,
+          3,
+          0,
+          7,
+          9
+        ],
+        "iterations_completed": 150,
+        "final_diversity": 0.24860853432282004,
+        "memory_usage_mb": 0.01953125,
+        "category": "Metaheuristic",
+        "swarm_size": 50
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 0.3916565179824829,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 150,
+        "memory_usage_mb": 0.01953125,
+        "category": "Metaheuristic",
+        "num_ants": 50
+      }
+    },
+    "problem_size": 25,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 76.9765625,
+        "memory_percent": 0.4790465160827968,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:15.661883"
+      },
+      "post_test": {
+        "memory_usage_mb": 78.015625,
+        "memory_percent": 0.4855128904498944,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:18.266431"
+      },
+      "memory_delta_mb": 1.0390625
+    }
+  },
+  "40_cities": {
+    "algorithm_results": {
+      "Genetic Algorithm": {
+        "distance": 100071.21288353576,
+        "time": 5.304097652435303,
+        "route": [
+          4,
+          1,
+          5,
+          2,
+          10,
+          9,
+          7,
+          0,
+          3,
+          8,
+          6
+        ],
+        "generations_completed": 400,
+        "final_diversity": 0.5916380789022299,
+        "convergence_rate": 0.09361558670340964,
+        "memory_usage_mb": 0.05078125,
+        "category": "Evolutionary",
+        "population_size": 160,
+        "total_evaluations": 64000
+      },
+      "Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Cheapest Insertion": {
+        "distance": 101307.5122984512,
+        "time": 0.0140533447265625,
+        "route": [
+          0,
+          3,
+          5,
+          8,
+          6,
+          4,
+          1,
+          2,
+          10,
+          9,
+          7
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance": 100071.21288353577,
+        "time": 0.0,
+        "route": [
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance": 101949.08436821456,
+        "time": 1.1998332738876343,
+        "route": [
+          6,
+          4,
+          1,
+          5,
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          8
+        ],
+        "iterations_completed": 240,
+        "final_diversity": 0.217692750287687,
+        "memory_usage_mb": 0.025390625,
+        "category": "Metaheuristic",
+        "swarm_size": 80
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 1.1998332738876343,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 240,
+        "memory_usage_mb": 0.025390625,
+        "category": "Metaheuristic",
+        "num_ants": 80
+      }
+    },
+    "problem_size": 40,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 78.015625,
+        "memory_percent": 0.4855128904498944,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:18.316213"
+      },
+      "post_test": {
+        "memory_usage_mb": 78.6796875,
+        "memory_percent": 0.4896455357220995,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:26.080305"
+      },
+      "memory_delta_mb": 0.6640625
+    }
+  },
+  "60_cities": {
+    "algorithm_results": {
+      "Genetic Algorithm": {
+        "distance": 100071.21288353576,
+        "time": 10.447038888931274,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "generations_completed": 500,
+        "final_diversity": 0.5614298766560073,
+        "convergence_rate": 0.06386795057650496,
+        "memory_usage_mb": 0.01171875,
+        "category": "Evolutionary",
+        "population_size": 200,
+        "total_evaluations": 100000
+      },
+      "Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Cheapest Insertion": {
+        "distance": 101307.5122984512,
+        "time": 0.0,
+        "route": [
+          0,
+          3,
+          5,
+          8,
+          6,
+          4,
+          1,
+          2,
+          10,
+          9,
+          7
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance": 100071.21288353577,
+        "time": 0.0,
+        "route": [
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance": 100071.21288353577,
+        "time": 1.902429223060608,
+        "route": [
+          6,
+          8,
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4
+        ],
+        "iterations_completed": 300,
+        "final_diversity": 0.20725436179981635,
+        "memory_usage_mb": 0.013671875,
+        "category": "Metaheuristic",
+        "swarm_size": 100
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 1.902429223060608,
+        "route": [
+          6,
+          4,
+          1,
+          5,
+          2,
+          10,
+          9,
+          7,
+          0,
+          3,
+          8
+        ],
+        "iterations_completed": 300,
+        "memory_usage_mb": 0.013671875,
+        "category": "Metaheuristic",
+        "num_ants": 100
+      }
+    },
+    "problem_size": 60,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 78.6796875,
+        "memory_percent": 0.4896455357220995,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:26.134591"
+      },
+      "post_test": {
+        "memory_usage_mb": 77.56640625,
+        "memory_percent": 0.4827172774716379,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:40.441676"
+      },
+      "memory_delta_mb": -1.11328125
+    }
+  },
+  "80_cities": {
+    "algorithm_results": {
+      "Genetic Algorithm": {
+        "distance": 100071.21288353576,
+        "time": 10.994060516357422,
+        "route": [
+          4,
+          1,
+          5,
+          2,
+          10,
+          9,
+          7,
+          0,
+          3,
+          8,
+          6
+        ],
+        "generations_completed": 500,
+        "final_diversity": 0.6225856555504796,
+        "convergence_rate": 0.11178782431266857,
+        "memory_usage_mb": 0.0546875,
+        "category": "Evolutionary",
+        "population_size": 200,
+        "total_evaluations": 100000
+      },
+      "Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Cheapest Insertion": {
+        "distance": 101307.5122984512,
+        "time": 0.0,
+        "route": [
+          0,
+          3,
+          5,
+          8,
+          6,
+          4,
+          1,
+          2,
+          10,
+          9,
+          7
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Farthest Insertion": {
+        "distance": 100071.21288353577,
+        "time": 0.0,
+        "route": [
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9
+        ],
+        "nodes_explored": 11,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "Particle Swarm Optimization": {
+        "distance": 100071.21288353576,
+        "time": 2.627494692802429,
+        "route": [
+          6,
+          4,
+          1,
+          5,
+          2,
+          10,
+          9,
+          7,
+          0,
+          3,
+          8
+        ],
+        "iterations_completed": 300,
+        "final_diversity": 0.19786960514233243,
+        "memory_usage_mb": 0.005859375,
+        "category": "Metaheuristic",
+        "swarm_size": 100
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 2.627494692802429,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 300,
+        "memory_usage_mb": 0.005859375,
+        "category": "Metaheuristic",
+        "num_ants": 100
+      }
+    },
+    "problem_size": 80,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 77.56640625,
+        "memory_percent": 0.4827172774716379,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:40.492119"
+      },
+      "post_test": {
+        "memory_usage_mb": 77.9765625,
+        "memory_percent": 0.4852697936691764,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:19:56.803501"
+      },
+      "memory_delta_mb": 0.41015625
+    }
+  }
+}

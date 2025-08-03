@@ -1,0 +1,21 @@
+problem_size,algorithm,category,distance_km,time_seconds,memory_mb,route_length,iterations,nodes_explored,swarm_size,num_ants
+15,Particle Swarm Optimization,Metaheuristic,102.02813985774804,0.12208437919616699,0.025390625,11,90,0,30,N/A
+15,Ant Colony Optimization,Metaheuristic,100.07121288353576,0.12208437919616699,0.025390625,11,90,0,N/A,30
+15,Dijkstra-Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.001953125,11,0,10,N/A,N/A
+15,A* Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.001953125,11,0,20,N/A,N/A
+25,Particle Swarm Optimization,Metaheuristic,100.7877946442096,0.469992995262146,0.015625,11,150,0,50,N/A
+25,Ant Colony Optimization,Metaheuristic,100.07121288353576,0.469992995262146,0.015625,11,150,0,N/A,50
+25,Dijkstra-Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,10,N/A,N/A
+25,A* Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,20,N/A,N/A
+40,Particle Swarm Optimization,Metaheuristic,100.07121288353578,1.1699389219284058,0.015625,11,240,0,80,N/A
+40,Ant Colony Optimization,Metaheuristic,100.07121288353576,1.1699389219284058,0.015625,11,240,0,N/A,80
+40,Dijkstra-Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,10,N/A,N/A
+40,A* Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,20,N/A,N/A
+60,Particle Swarm Optimization,Metaheuristic,100.07121288353578,1.6955615282058716,0.03125,11,300,0,100,N/A
+60,Ant Colony Optimization,Metaheuristic,100.07121288353576,1.6955615282058716,0.03125,11,300,0,N/A,100
+60,Dijkstra-Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,10,N/A,N/A
+60,A* Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,20,N/A,N/A
+80,Particle Swarm Optimization,Metaheuristic,101.30751229845119,1.7613565921783447,0.005859375,11,300,0,100,N/A
+80,Ant Colony Optimization,Metaheuristic,100.07121288353576,1.7613565921783447,0.005859375,11,300,0,N/A,100
+80,Dijkstra-Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,10,N/A,N/A
+80,A* Enhanced Nearest Neighbor,Conventional,113.71496601223551,0.0,0.0,11,0,20,N/A,N/A

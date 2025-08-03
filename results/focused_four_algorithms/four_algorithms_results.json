@@ -1,0 +1,517 @@
+{
+  "15_cities": {
+    "algorithm_results": {
+      "Particle Swarm Optimization": {
+        "distance": 102028.13985774804,
+        "time": 0.12208437919616699,
+        "route": [
+          8,
+          6,
+          4,
+          1,
+          10,
+          9,
+          7,
+          0,
+          3,
+          2,
+          5
+        ],
+        "iterations_completed": 90,
+        "final_diversity": 0.19644723092998956,
+        "memory_usage_mb": 0.025390625,
+        "category": "Metaheuristic",
+        "swarm_size": 30
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 0.12208437919616699,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 90,
+        "memory_usage_mb": 0.025390625,
+        "category": "Metaheuristic",
+        "num_ants": 30
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.001953125,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.001953125,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 15,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 75.96875,
+        "memory_percent": 0.47277461914027363,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:31.228929"
+      },
+      "post_test": {
+        "memory_usage_mb": 77.64453125,
+        "memory_percent": 0.48320347103307376,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:31.530833"
+      },
+      "memory_delta_mb": 1.67578125
+    }
+  },
+  "25_cities": {
+    "algorithm_results": {
+      "Particle Swarm Optimization": {
+        "distance": 100787.7946442096,
+        "time": 0.469992995262146,
+        "route": [
+          2,
+          5,
+          4,
+          1,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9,
+          10
+        ],
+        "iterations_completed": 150,
+        "final_diversity": 0.205417439703154,
+        "memory_usage_mb": 0.015625,
+        "category": "Metaheuristic",
+        "swarm_size": 50
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 0.469992995262146,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 150,
+        "memory_usage_mb": 0.015625,
+        "category": "Metaheuristic",
+        "num_ants": 50
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 25,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 77.64453125,
+        "memory_percent": 0.48320347103307376,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:31.765829"
+      },
+      "post_test": {
+        "memory_usage_mb": 77.68359375,
+        "memory_percent": 0.4834465678137918,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:32.854409"
+      },
+      "memory_delta_mb": 0.0390625
+    }
+  },
+  "40_cities": {
+    "algorithm_results": {
+      "Particle Swarm Optimization": {
+        "distance": 100071.21288353577,
+        "time": 1.1699389219284058,
+        "route": [
+          0,
+          3,
+          8,
+          6,
+          4,
+          1,
+          5,
+          2,
+          10,
+          9,
+          7
+        ],
+        "iterations_completed": 240,
+        "final_diversity": 0.24088032220943614,
+        "memory_usage_mb": 0.015625,
+        "category": "Metaheuristic",
+        "swarm_size": 80
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 1.1699389219284058,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 240,
+        "memory_usage_mb": 0.015625,
+        "category": "Metaheuristic",
+        "num_ants": 80
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 40,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 77.68359375,
+        "memory_percent": 0.4834465678137918,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:32.906224"
+      },
+      "post_test": {
+        "memory_usage_mb": 77.71484375,
+        "memory_percent": 0.4836410452383661,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:35.295936"
+      },
+      "memory_delta_mb": 0.03125
+    }
+  },
+  "60_cities": {
+    "algorithm_results": {
+      "Particle Swarm Optimization": {
+        "distance": 100071.21288353577,
+        "time": 1.6955615282058716,
+        "route": [
+          1,
+          4,
+          6,
+          8,
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5
+        ],
+        "iterations_completed": 300,
+        "final_diversity": 0.20914600550964188,
+        "memory_usage_mb": 0.03125,
+        "category": "Metaheuristic",
+        "swarm_size": 100
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 1.6955615282058716,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 300,
+        "memory_usage_mb": 0.03125,
+        "category": "Metaheuristic",
+        "num_ants": 100
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 60,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 77.71484375,
+        "memory_percent": 0.4836410452383661,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:35.350071"
+      },
+      "post_test": {
+        "memory_usage_mb": 78.234375,
+        "memory_percent": 0.48687423242191485,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:38.814349"
+      },
+      "memory_delta_mb": 0.51953125
+    }
+  },
+  "80_cities": {
+    "algorithm_results": {
+      "Particle Swarm Optimization": {
+        "distance": 101307.51229845118,
+        "time": 1.7613565921783447,
+        "route": [
+          6,
+          4,
+          1,
+          2,
+          10,
+          9,
+          7,
+          0,
+          3,
+          5,
+          8
+        ],
+        "iterations_completed": 300,
+        "final_diversity": 0.20391184573002755,
+        "memory_usage_mb": 0.005859375,
+        "category": "Metaheuristic",
+        "swarm_size": 100
+      },
+      "Ant Colony Optimization": {
+        "distance": 100071.21288353576,
+        "time": 1.7613565921783447,
+        "route": [
+          3,
+          0,
+          7,
+          9,
+          10,
+          2,
+          5,
+          1,
+          4,
+          6,
+          8
+        ],
+        "iterations_completed": 300,
+        "memory_usage_mb": 0.005859375,
+        "category": "Metaheuristic",
+        "num_ants": 100
+      },
+      "Dijkstra-Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 10,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      },
+      "A* Enhanced Nearest Neighbor": {
+        "distance": 113714.96601223551,
+        "time": 0.0,
+        "route": [
+          0,
+          7,
+          3,
+          2,
+          5,
+          10,
+          9,
+          6,
+          4,
+          1,
+          8
+        ],
+        "nodes_explored": 20,
+        "memory_usage_mb": 0.0,
+        "category": "Conventional"
+      }
+    },
+    "problem_size": 80,
+    "system_metrics": {
+      "pre_test": {
+        "memory_usage_mb": 78.234375,
+        "memory_percent": 0.48687423242191485,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:38.865452"
+      },
+      "post_test": {
+        "memory_usage_mb": 77.83203125,
+        "memory_percent": 0.48437033558052,
+        "cpu_percent": 0.0,
+        "timestamp": "2025-08-03T14:27:42.462407"
+      },
+      "memory_delta_mb": -0.40234375
+    }
+  }
+}
