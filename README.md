@@ -34,6 +34,38 @@
 [![Pygame](https://img.shields.io/badge/Pygame-Interactive%20Viz-red)](https://pygame.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+## 🎥 Project Demonstration | Demonstração do Projeto
+
+### English
+
+Watch the complete demonstration of the Four Focused Algorithms in action:
+
+### Português
+
+Assista à demonstração completa dos Quatro Algoritmos Focalizados em ação:
+
+<details>
+<summary>🎬 <strong>Click to watch the interactive demonstration</strong> | <strong>Clique para assistir a demonstração interativa</strong></summary>
+
+<video width="100%" controls>
+  <source src="assets/video.mp4" type="video/mp4">
+  Your browser does not support the video tag. | Seu navegador não suporta a tag de vídeo.
+</video>
+
+</details>
+
+> **📹 Interactive Demo Video:** This demonstration showcases the real-time execution of all four algorithms (PSO, ACO, Dijkstra-Enhanced, A*-Enhanced) with the interactive Pygame visualization system. See the algorithms compete in solving the Brazilian transportation network TSP problem with live performance metrics.
+
+> **📹 Vídeo de Demonstração Interativa:** Esta demonstração apresenta a execução em tempo real de todos os quatro algoritmos (PSO, ACO, Dijkstra-Aprimorado, A*-Aprimorado) com o sistema de visualização interativa Pygame. Veja os algoritmos competindo na resolução do problema TSP da rede de transporte brasileira com métricas de performance ao vivo.
+
+**🎮 What you'll see in the video | O que você verá no vídeo:**
+
+- ✅ **Real-time algorithm execution | Execução de algoritmos em tempo real**
+- ✅ **Interactive controls demonstration | Demonstração de controles interativos**
+- ✅ **Performance comparison | Comparação de performance**
+- ✅ **Geographic visualization | Visualização geográfica**
+- ✅ **Live metrics dashboard | Painel de métricas ao vivo**
+
 ## 📚 Table of Contents | Índice
 
 ### English
@@ -750,6 +782,7 @@ pip install -r requirements.txt
 #### **Mathematical and Algorithmic Libraries | Bibliotecas Matemáticas e Algorítmicas:**
 
 ##### English
+
 ```toml
 [dependencies]
 numpy = "^1.24.0"           # Advanced numerical operations and matrix calculations
@@ -759,6 +792,7 @@ scipy = "^1.10.0"           # Scientific computing and optimization utilities
 ```
 
 ##### Português
+
 ```toml
 [dependencies]
 numpy = "^1.24.0"           # Operações numéricas avançadas e cálculos matriciais
@@ -770,6 +804,7 @@ scipy = "^1.10.0"           # Computação científica e utilitários de otimiza
 #### **Visualization and User Interface | Visualização e Interface do Usuário:**
 
 ##### English
+
 ```toml
 pygame = "^2.5.0"           # Interactive real-time algorithm visualization
 matplotlib = "^3.7.0"       # Statistical plotting and performance analysis
@@ -777,6 +812,7 @@ seaborn = "^0.12.0"         # Advanced statistical visualization
 ```
 
 ##### Português
+
 ```toml
 pygame = "^2.5.0"           # Visualização interativa de algoritmos em tempo real
 matplotlib = "^3.7.0"       # Plotagem estatística e análise de performance
@@ -786,12 +822,14 @@ seaborn = "^0.12.0"         # Visualização estatística avançada
 #### **System and Performance Monitoring | Monitoramento de Sistema e Performance:**
 
 ##### English
+
 ```toml
 psutil = "^5.9.0"           # System resource monitoring and performance metrics
 tqdm = "^4.65.0"            # Progress bars for long-running optimizations
 ```
 
 ##### Português
+
 ```toml
 psutil = "^5.9.0"           # Monitoramento de recursos do sistema e métricas de performance
 tqdm = "^4.65.0"            # Barras de progresso para otimizações de longa duração
@@ -800,12 +838,14 @@ tqdm = "^4.65.0"            # Barras de progresso para otimizações de longa du
 #### **Development and Testing | Desenvolvimento e Testes:**
 
 ##### English
+
 ```toml
 pytest = "^7.4.0"           # Comprehensive testing framework
 black = "^23.0.0"           # Code formatting and style consistency
 ```
 
 ##### Português
+
 ```toml
 pytest = "^7.4.0"           # Framework abrangente de testes
 black = "^23.0.0"           # Formatação de código e consistência de estilo
@@ -814,12 +854,15 @@ black = "^23.0.0"           # Formatação de código e consistência de estilo
 ### **Dataset Verification | Verificação do Dataset**
 
 #### English
+
 After installation, verify the Brazilian transportation dataset:
 
 #### Português
+
 Após a instalação, verifique o conjunto de dados da rede de transporte brasileira:
 
 ##### English
+
 ```bash
 # Quick dataset verification
 uv run python -c "
@@ -834,6 +877,7 @@ print(f'✅ Geographic bounds: {nodes.latitude.min():.3f} to {nodes.latitude.max
 ```
 
 Expected output:
+
 ```
 ✅ Nodes: 1000 Brazilian cities loaded
 ✅ Edges: 499500 transportation connections loaded
@@ -842,6 +886,7 @@ Expected output:
 ```
 
 ##### Português
+
 ```bash
 # Verificação rápida do dataset
 uv run python -c "
@@ -856,6 +901,7 @@ print(f'✅ Limites geográficos: {nodes.latitude.min():.3f} a {nodes.latitude.m
 ```
 
 Saída esperada:
+
 ```
 ✅ Nós: 1000 cidades brasileiras carregadas
 ✅ Arestas: 499500 conexões de transporte carregadas
@@ -963,12 +1009,14 @@ uv run python src/testing/complete_four_algorithms_dataset.py
 #### **Real-Time Algorithm Comparison Demo | Demonstração de Comparação de Algoritmos em Tempo Real**
 
 ##### English
+
 ```bash
 # Launch interactive Pygame visualization
 uv run python src/visualization/four_algorithms_pygame_demo.py
 ```
 
 ##### Português
+
 ```bash
 # Iniciar visualização interativa Pygame
 uv run python src/visualization/four_algorithms_pygame_demo.py
@@ -977,6 +1025,7 @@ uv run python src/visualization/four_algorithms_pygame_demo.py
 #### **Interactive Controls | Controles Interativos:**
 
 ##### English
+
 ```
 Keyboard Controls:
 ├── 1: Toggle Particle Swarm Optimization route display
@@ -991,6 +1040,7 @@ Keyboard Controls:
 ```
 
 ##### Português
+
 ```
 Controles do Teclado:
 ├── 1: Alternar exibição da rota de Otimização por Enxame de Partículas
@@ -1007,6 +1057,7 @@ Controles do Teclado:
 #### **Visualization Features | Características da Visualização:**
 
 ##### English
+
 - **Geographic Accuracy:** Real Brazilian city coordinates
 - **Color-Coded Routes:** Distinct visualization for each algorithm
 - **Performance Panel:** Real-time distance and execution time display
@@ -1014,6 +1065,7 @@ Controles do Teclado:
 - **Route Animation:** Dynamic path construction visualization
 
 ##### Português
+
 - **Precisão Geográfica:** Coordenadas reais de cidades brasileiras
 - **Rotas Codificadas por Cores:** Visualização distinta para cada algoritmo
 - **Painel de Performance:** Exibição em tempo real de distância e tempo de execução
@@ -1023,24 +1075,28 @@ Controles do Teclado:
 #### **Statistical Performance Analysis | Análise Estatística de Performance**
 
 ##### English
+
 ```bash
 # Generate comprehensive performance plots
 uv run python src/visualization/convergence_plotter.py
 ```
 
 **Plot Types:**
+
 - Algorithm convergence analysis
 - Performance comparison charts
 - Scalability trend analysis
 - Statistical confidence intervals
 
 ##### Português
+
 ```bash
 # Gerar gráficos abrangentes de performance
 uv run python src/visualization/convergence_plotter.py
 ```
 
 **Tipos de Gráficos:**
+
 - Análise de convergência de algoritmos
 - Gráficos de comparação de performance
 - Análise de tendências de escalabilidade
@@ -1225,6 +1281,7 @@ print('🎊 System validation complete!')
 #### **Real-Time Interactive Analysis | Análise Interativa em Tempo Real**
 
 ##### English
+
 - **Geographic Projection:** Accurate Brazilian coordinate system with Haversine distance calculations
 - **Multi-Algorithm Display:** Simultaneous visualization of all 4 algorithm routes with distinct color coding
 - **Performance Dashboard:** Live metrics including distance optimization, execution time, and efficiency ratios
@@ -1232,6 +1289,7 @@ print('🎊 System validation complete!')
 - **Animation System:** Step-by-step route construction visualization for educational demonstration
 
 ##### Português
+
 - **Projeção Geográfica:** Sistema de coordenadas brasileiro preciso com cálculos de distância Haversine
 - **Exibição Multi-Algoritmos:** Visualização simultânea de todas as 4 rotas de algoritmos com codificação de cores distintas
 - **Painel de Performance:** Métricas ao vivo incluindo otimização de distância, tempo de execução e taxas de eficiência
@@ -1259,12 +1317,14 @@ plot_algorithm_convergence(
 #### **Multi-Dimensional Performance Analysis | Análise de Performance Multi-Dimensional**
 
 ##### English
+
 - **Scalability Studies:** Progressive problem sizes from 8 to 200+ cities with complexity validation
 - **Convergence Tracking:** Iteration-by-iteration improvement monitoring for metaheuristic algorithms
 - **Statistical Significance:** Confidence intervals, variance analysis, and reproducibility testing
 - **Resource Monitoring:** Memory usage, CPU utilization, and system performance impact analysis
 
 ##### Português
+
 - **Estudos de Escalabilidade:** Tamanhos progressivos de problemas de 8 a 200+ cidades com validação de complexidade
 - **Rastreamento de Convergência:** Monitoramento de melhoria iteração por iteração para algoritmos metaheurísticos
 - **Significância Estatística:** Intervalos de confiança, análise de variância e testes de reprodutibilidade
@@ -1822,12 +1882,14 @@ def run_regression_testing():
 #### **Novel Research Contributions | Contribuições Inovadoras de Pesquisa**
 
 ##### English
+
 - **Comparative Algorithmic Analysis:** Comprehensive study comparing metaheuristic vs. conventional approaches on Brazilian transportation infrastructure
 - **Geographic TSP Optimization:** Integration of real-world geographical constraints with Haversine distance calculations for transportation route optimization
 - **Statistical Validation Framework:** Rigorous statistical analysis with confidence intervals, significance testing, and reproducibility protocols
 - **Interactive Research Tools:** Real-time visualization system for algorithm behavior analysis and educational demonstration
 
 ##### Português
+
 - **Análise Algorítmica Comparativa:** Estudo abrangente comparando abordagens metaheurísticas vs. convencionais na infraestrutura de transporte brasileira
 - **Otimização TSP Geográfica:** Integração de restrições geográficas do mundo real com cálculos de distância Haversine para otimização de rotas de transporte
 - **Framework de Validação Estatística:** Análise estatística rigorosa com intervalos de confiança, testes de significância e protocolos de reprodutibilidade
@@ -1836,12 +1898,14 @@ def run_regression_testing():
 #### **Technical and Engineering Excellence | Excelência Técnica e de Engenharia**
 
 ##### English
+
 - **Modular Algorithm Architecture:** Unified interface supporting easy integration of new optimization approaches
 - **Real-Time Performance Monitoring:** Microsecond-precision timing with resource usage tracking
 - **Interactive Visualization System:** Professional-grade Pygame implementation with real-time algorithm comparison
 - **Statistical Analysis Integration:** Automated significance testing and confidence interval calculation
 
 ##### Português
+
 - **Arquitetura de Algoritmos Modular:** Interface unificada suportando integração fácil de novas abordagens de otimização
 - **Monitoramento de Performance em Tempo Real:** Temporização de precisão em microssegundos com rastreamento de uso de recursos
 - **Sistema de Visualização Interativa:** Implementação Pygame de nível profissional com comparação de algoritmos em tempo real
@@ -1850,12 +1914,14 @@ def run_regression_testing():
 #### **Practical Applications and Industry Impact | Aplicações Práticas e Impacto na Indústria**
 
 ##### English
+
 - **Route Optimization:** 13.6% improvement potential for transportation networks demonstrated
 - **Algorithm Selection Guidelines:** Evidence-based recommendations for different operational scenarios
 - **Real-Time Decision Support:** Microsecond-response conventional algorithms for time-critical applications
 - **Scalable Solutions:** Validated performance up to 200-city problems suitable for regional logistics
 
 ##### Português
+
 - **Otimização de Rotas:** Potencial de melhoria de 13,6% para redes de transporte demonstrado
 - **Diretrizes de Seleção de Algoritmos:** Recomendações baseadas em evidências para diferentes cenários operacionais
 - **Suporte à Decisão em Tempo Real:** Algoritmos convencionais com resposta em microssegundos para aplicações críticas no tempo
@@ -1868,6 +1934,7 @@ def run_regression_testing():
 ### **🎯 FIAP Tech Challenge - Complete Success | FIAP Tech Challenge - Sucesso Completo**
 
 #### English
+
 - ✅ **100% Requirements Fulfilled:** All 4 specified algorithms implemented and validated
 - ✅ **Champion Performance:** Ant Colony Optimization achieves optimal 100.07 km consistently
 - ✅ **Statistical Excellence:** Comprehensive validation with 95% confidence intervals
@@ -1875,6 +1942,7 @@ def run_regression_testing():
 - ✅ **Educational Value:** Complete learning resource with mathematical foundations
 
 #### Português
+
 - ✅ **100% dos Requisitos Atendidos:** Todos os 4 algoritmos especificados implementados e validados
 - ✅ **Performance Campeã:** Otimização por Colônia de Formigas atinge 100,07 km ótimo consistentemente
 - ✅ **Excelência Estatística:** Validação abrangente com intervalos de confiança de 95%
@@ -1981,8 +2049,6 @@ Este projeto está licenciado sob a **Licença MIT**, proporcionando máxima fle
 - **TSP Theory:** Lawler et al. (1985). "The Traveling Salesman Problem"
 
 ---
-
-
 
 ## 📞 Contact Information and Support Resources | Informações de Contato e Recursos de Suporte
 
