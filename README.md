@@ -1,6 +1,13 @@
 # FIAP Tech Challenge - Advanced TSP Optimization with Four Focused Algorithms
+# FIAP Tech Challenge - Otimização Avançada de TSP com Quatro Algoritmos Focalizados
 
-## 🎯 Multi-Algorithm Comparison for Transportation Route Optimization
+*[English](#english) | [Português](#português)*
+
+---
+
+## English
+
+### 🎯 Multi-Algorithm Comparison for Transportation Route Optimization
 
 **Institution:** FIAP (Faculdade de Informática e Administração Paulista)
 **Challenge:** Advanced Algorithm Implementation and Analysis
@@ -8,20 +15,61 @@
 **Dataset:** 1,000 Brazilian geographic locations with ~500,000 weighted transportation connections
 **Algorithms:** Particle Swarm Optimization, Ant Colony Optimization, Dijkstra-Enhanced, A*-Enhanced
 
+---
+
+## Português
+
+### 🎯 Comparação Multi-Algoritmica para Otimização de Rotas de Transporte
+
+**Instituição:** FIAP (Faculdade de Informática e Administração Paulista)
+**Desafio:** Implementação e Análise Avançada de Algoritmos
+**Foco da Pesquisa:** Otimização do Problema do Caixeiro Viajante (TSP) usando dados da rede de transporte brasileira
+**Dataset:** 1.000 localizações geográficas brasileiras com ~500.000 conexões de transporte ponderadas
+**Algoritmos:** Otimização por Enxame de Partículas, Otimização por Colônia de Formigas, Dijkstra-Aprimorado, A*-Aprimorado
+
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://python.org)
 [![Algorithms](https://img.shields.io/badge/Algorithms-4%20Focused-orange)](README.md)
 [![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Processing-green)](https://networkx.org)
 [![Pygame](https://img.shields.io/badge/Pygame-Interactive%20Viz-red)](https://pygame.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+## 📚 Table of Contents | Índice
+
+### English
+1. [🎯 Research Objectives](#research-objectives--objetivos-da-pesquisa)
+2. [🗂️ Project Architecture](#project-architecture--arquitetura-do-projeto) 
+3. [🧮 Mathematical Foundations](#mathematical-foundations-and-algorithm-analysis--fundamentos-matemáticos-e-análise-de-algoritmos)
+4. [📊 Performance Results](#empirical-performance-results-and-statistical-analysis--resultados-de-performance-empírica-e-análise-estatística)
+5. [🛠️ Installation Guide](#installation-and-development-environment--instalação-e-ambiente-de-desenvolvimento)
+6. [🚀 Usage Guide](#comprehensive-usage-guide--guia-de-uso-abrangente)
+7. [📄 License](#license-and-usage-rights--licença-e-direitos-de-uso)
+8. [📞 Contact](#contact-information-and-support-resources--informações-de-contato-e-recursos-de-suporte)
+
+### Português
+1. [🎯 Objetivos da Pesquisa](#research-objectives--objetivos-da-pesquisa)
+2. [🗂️ Arquitetura do Projeto](#project-architecture--arquitetura-do-projeto)
+3. [🧮 Fundamentos Matemáticos](#mathematical-foundations-and-algorithm-analysis--fundamentos-matemáticos-e-análise-de-algoritmos)
+4. [📊 Resultados de Performance](#empirical-performance-results-and-statistical-analysis--resultados-de-performance-empírica-e-análise-estatística)
+5. [🛠️ Guia de Instalação](#installation-and-development-environment--instalação-e-ambiente-de-desenvolvimento)
+6. [🚀 Guia de Uso](#comprehensive-usage-guide--guia-de-uso-abrangente)
+7. [📄 Licença](#license-and-usage-rights--licença-e-direitos-de-uso)
+8. [📞 Contato](#contact-information-and-support-resources--informações-de-contato-e-recursos-de-suporte)
+
 ---
 
-## 📋 Executive Summary
+## 📋 Executive Summary | Resumo Executivo
+
+### English
 
 This project presents a **comprehensive comparative analysis of four distinct optimization algorithms** for solving the Traveling Salesman Problem (TSP) using real-world Brazilian transportation network data. The implementation demonstrates rigorous algorithm comparison, mathematical foundations, computational complexity analysis, and empirical performance validation across multiple problem scales.
 
-### 🎯 Research Objectives
+### Português
 
+Este projeto apresenta uma **análise comparativa abrangente de quatro algoritmos de otimização distintos** para resolver o Problema do Caixeiro Viajante (TSP) usando dados reais da rede de transporte brasileira. A implementação demonstra comparação rigorosa de algoritmos, fundamentos matemáticos, análise de complexidade computacional e validação empírica de desempenho em múltiplas escalas de problemas.
+
+### 🎯 Research Objectives | Objetivos da Pesquisa
+
+#### English
 - **Primary Focus:** Implement and analyze 4 specifically selected optimization algorithms for TSP
 - **Algorithm Portfolio:** Metaheuristic approaches (PSO, ACO) vs. Enhanced conventional methods (Dijkstra, A*)
 - **Mathematical Rigor:** Complete computational complexity analysis and mathematical formulations
@@ -29,8 +77,17 @@ This project presents a **comprehensive comparative analysis of four distinct op
 - **Real-World Application:** Brazilian transportation network with geographical coordinate accuracy
 - **Interactive Analysis:** Professional visualization system with real-time algorithm comparison
 
-### 🏆 Key Research Contributions
+#### Português
+- **Foco Principal:** Implementar e analisar 4 algoritmos de otimização especificamente selecionados para TSP
+- **Portfólio de Algoritmos:** Abordagens metaheurísticas (PSO, ACO) vs. Métodos convencionais aprimorados (Dijkstra, A*)
+- **Rigor Matemático:** Análise completa de complexidade computacional e formulações matemáticas
+- **Validação Empírica:** Análise estatística de desempenho em diferentes tamanhos de problemas (8-200 cidades)
+- **Aplicação do Mundo Real:** Rede de transporte brasileira com precisão de coordenadas geográficas
+- **Análise Interativa:** Sistema de visualização profissional com comparação de algoritmos em tempo real
 
+### 🏆 Key Research Contributions | Principais Contribuições da Pesquisa
+
+#### English
 - ✅ **Mathematical Foundations:** Complete formulations for all 4 algorithms with complexity analysis
 - ✅ **Empirical Champion:** Ant Colony Optimization achieves optimal 100.07 km consistently
 - ✅ **Scalability Analysis:** Comprehensive testing across 7 problem sizes with statistical validation
@@ -39,9 +96,20 @@ This project presents a **comprehensive comparative analysis of four distinct op
 - ✅ **Interactive Research Tool:** Real-time Pygame visualization for algorithm behavior analysis
 - ✅ **Production Quality:** Professional implementation suitable for academic and commercial use
 
+#### Português
+- ✅ **Fundamentos Matemáticos:** Formulações completas para todos os 4 algoritmos com análise de complexidade
+- ✅ **Campeão Empírico:** Otimização por Colônia de Formigas atinge 100.07 km ótimo consistentemente
+- ✅ **Análise de Escalabilidade:** Testes abrangentes em 7 tamanhos de problemas com validação estatística
+- ✅ **Precisão Geográfica:** Cálculos de distância Haversine para sistema de coordenadas brasileiro preciso
+- ✅ **Benchmarking de Performance:** Análise de tempo de execução de microssegundos a segundos
+- ✅ **Ferramenta de Pesquisa Interativa:** Visualização Pygame em tempo real para análise de comportamento de algoritmos
+- ✅ **Qualidade de Produção:** Implementação profissional adequada para uso acadêmico e comercial
+
 ---
 
-## 🗂️ Project Architecture
+## 🗂️ Project Architecture | Arquitetura do Projeto
+
+### English
 
 ```
 FIAP-Tech-Challenge/
@@ -66,15 +134,48 @@ FIAP-Tech-Challenge/
 ├── 📁 tests/                                   # Unit and Integration Test Suite
 ├── 📁 results/                                 # Empirical Results and Analysis Data
 │   ├── complete_four_algorithms_dataset/       # Full dataset performance results
-│   └── focused_four_algorithms/                # Sample dataset   validation report
+│   └── focused_four_algorithms/                # Sample dataset validation report
 └── 📄 README.md                                # This comprehensive documentation
+```
+
+### Português
+
+```
+FIAP-Tech-Challenge/
+├── 📁 data/                                    # Conjunto de Dados da Rede de Transporte Brasileira
+│   ├── nodes.csv                               # 1.000 cidades (ID, longitude, latitude)
+│   └── edges.csv                               # ~500k conexões ponderadas (distâncias Haversine)
+├── 📁 src/                                     # Código Fonte da Implementação Principal
+│   ├── 📁 algorithms/                          # Implementações dos Quatro Algoritmos Focalizados
+│   │   └── four_focused_algorithms.py          # 🎯 PSO, ACO, Dijkstra-Aprimorado, A*-Aprimorado
+│   ├── 📁 utils/                               # Utilitários Matemáticos e de Processamento de Dados
+│   │   ├── data_loader.py                      # Construção de grafos e pré-processamento de dados
+│   │   └── distance_utils.py                   # Fórmula Haversine e operações de matriz de distância
+│   ├── 📁 visualization/                       # Visualização Interativa e Analítica
+│   │   ├── four_algorithms_pygame_demo.py      # 🎮 Visualização de comparação de algoritmos em tempo real
+│   │   ├── convergence_plotter.py              # 📊 Gráficos de análise estatística de desempenho
+│   │   └── tsp_visualizer.py                   # Motor de gráficos e renderização principal
+│   ├── 📁 testing/                             # Suíte Abrangente de Testes de Algoritmos
+│   │   ├── complete_four_algorithms_dataset.py # 🚀 Testes de escalabilidade completos com 1000 nós
+│   │   ├── test_all_algorithms.py              # Análise comparativa multi-tamanho
+│   │   └── focused_four_algorithms_testing.py  # Validação estatística em diferentes tamanhos de problemas
+│   └── 📁 benchmarks/                          # Framework de Benchmarking de Performance
+├── 📁 tests/                                   # Suíte de Testes Unitários e de Integração
+├── 📁 results/                                 # Dados de Resultados Empíricos e Análise
+│   ├── complete_four_algorithms_dataset/       # Resultados de performance do dataset completo
+│   └── focused_four_algorithms/                # Relatório de validação do dataset de amostra
+└── 📄 README.md                                # Esta documentação abrangente
 ```
 
 ---
 
-## 🧮 Mathematical Foundations and Algorithm Analysis
+## 🧮 Mathematical Foundations and Algorithm Analysis | Fundamentos Matemáticos e Análise de Algoritmos
 
+### English
 This section presents the complete mathematical formulations, computational complexity analysis, and algorithmic foundations for the four implemented optimization approaches.
+
+### Português
+Esta seção apresenta as formulações matemáticas completas, análise de complexidade computacional e fundamentos algorítmicos para as quatro abordagens de otimização implementadas.
 
 ---
 
@@ -385,11 +486,15 @@ A_STAR_CONFIG = {
 
 ---
 
-## 📊 Empirical Performance Results and Statistical Analysis
+## 📊 Empirical Performance Results and Statistical Analysis | Resultados de Performance Empírica e Análise Estatística
 
-### 🏆 **Champion Performance Summary (Multi-Size Testing)**
+### 🏆 **Champion Performance Summary (Multi-Size Testing) | Resumo de Performance dos Campeões (Teste Multi-Tamanho)**
 
+#### English
 Based on comprehensive testing across 8-80 cities using the Brazilian transportation network dataset:
+
+#### Português
+Baseado em testes abrangentes de 8-80 cidades usando o conjunto de dados da rede de transporte brasileira:
 
 | **🥇 Rank** | **Algorithm**                   | **Best Distance**    | **Average Time** | **Category** | **Consistency** |
 | ----------------- | ------------------------------------- | -------------------------- | ---------------------- | ------------------ | --------------------- |
@@ -531,10 +636,11 @@ Execution Time Spectrum:
 
 ---
 
-## 🛠️ Installation and Development Environment
+## 🛠️ Installation and Development Environment | Instalação e Ambiente de Desenvolvimento
 
-### **System Requirements**
+### **System Requirements | Requisitos do Sistema**
 
+#### English
 - **Python 3.12+** (Validated with Python 3.12.10)
 - **UV Package Manager** (Modern Python dependency management)
 - **Git** for repository access and version control
@@ -542,10 +648,19 @@ Execution Time Spectrum:
 - **Memory:** Minimum 4GB RAM for full dataset processing
 - **Storage:** 2GB for dataset and results storage
 
-### **Quick Installation**
+#### Português
+- **Python 3.12+** (Validado com Python 3.12.10)
+- **Gerenciador de Pacotes UV** (Gerenciamento moderno de dependências Python)
+- **Git** para acesso ao repositório e controle de versão
+- **Compatibilidade** com Windows/Linux/macOS
+- **Memória:** Mínimo 4GB RAM para processamento completo do dataset
+- **Armazenamento:** 2GB para armazenamento de dataset e resultados
 
-#### **Method 1: UV Package Manager (Recommended)**
+### **Quick Installation | Instalação Rápida**
 
+#### **Method 1: UV Package Manager (Recommended) | Método 1: Gerenciador de Pacotes UV (Recomendado)**
+
+##### English
 ```bash
 # Clone the repository
 git clone https://github.com/SamoraDC/FIAP-Tech-Challenge.git
@@ -563,8 +678,27 @@ uv run python --version
 uv run python -c "import networkx, pandas, numpy; print('✅ All dependencies loaded')"
 ```
 
-#### **Method 2: Traditional pip**
+##### Português
+```bash
+# Clonar o repositório
+git clone https://github.com/SamoraDC/FIAP-Tech-Challenge.git
+cd FIAP-Tech-Challenge
 
+# Instalar UV se não estiver instalado
+curl -LsSf https://astral.sh/uv/install.sh | sh  # Linux/macOS
+# OU para Windows: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Instalar todas as dependências com UV
+uv sync
+
+# Verificar instalação
+uv run python --version
+uv run python -c "import networkx, pandas, numpy; print('✅ Todas as dependências carregadas')"
+```
+
+#### **Method 2: Traditional pip | Método 2: pip Tradicional**
+
+##### English
 ```bash
 # Clone and setup with pip
 git clone https://github.com/SamoraDC/FIAP-Tech-Challenge.git
@@ -576,6 +710,21 @@ source venv/bin/activate  # Linux/macOS
 # OR: venv\Scripts\activate  # Windows
 
 # Install dependencies
+pip install -r requirements.txt
+```
+
+##### Português
+```bash
+# Clonar e configurar com pip
+git clone https://github.com/SamoraDC/FIAP-Tech-Challenge.git
+cd FIAP-Tech-Challenge
+
+# Criar ambiente virtual
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+# OU: venv\Scripts\activate  # Windows
+
+# Instalar dependências
 pip install -r requirements.txt
 ```
 
@@ -641,18 +790,27 @@ Expected output:
 
 ---
 
-## 🚀 Comprehensive Usage Guide
+## 🚀 Comprehensive Usage Guide | Guia de Uso Abrangente
 
-### **🧪 Algorithm Testing Suite**
+### **🧪 Algorithm Testing Suite | Suíte de Testes de Algoritmos**
 
-#### **Quick Algorithm Comparison (30 seconds)**
+#### **Quick Algorithm Comparison (30 seconds) | Comparação Rápida de Algoritmos (30 segundos)**
 
+##### English
 ```bash
 # Test all 4 algorithms across 3 problem sizes (8, 12, 16 cities)
 uv run python src/testing/test_all_algorithms.py
 ```
 
 **Output:** Complete performance ranking, solution validation, and statistical analysis
+
+##### Português
+```bash
+# Testar todos os 4 algoritmos em 3 tamanhos de problemas (8, 12, 16 cidades)
+uv run python src/testing/test_all_algorithms.py
+```
+
+**Saída:** Ranking completo de performance, validação de soluções e análise estatística
 
 ```
 🥇 1  Ant Colony Optimization        100.07 km    0.538s     Metaheuristic
@@ -661,34 +819,59 @@ uv run python src/testing/test_all_algorithms.py
 4️⃣ 4  A* Enhanced NN                113.71 km    0.000s     Conventional
 ```
 
-#### **Focused Multi-Size Testing (15 seconds)**
+#### **Focused Multi-Size Testing (15 seconds) | Teste Multi-Tamanho Focado (15 segundos)**
 
+##### English
 ```bash
 # Test the 4 algorithms across 5 problem sizes (15, 25, 40, 60, 80 cities)
 uv run python src/testing/focused_four_algorithms_testing.py
 ```
 
 **Features:**
-
 - Statistical validation across multiple problem sizes
 - Performance metrics export (JSON + CSV)
 - System resource monitoring
 - Saved to: `results/focused_four_algorithms/`
 
-#### **Complete Dataset Scalability Testing (5-10 minutes)**
+##### Português
+```bash
+# Testar os 4 algoritmos em 5 tamanhos de problemas (15, 25, 40, 60, 80 cidades)
+uv run python src/testing/focused_four_algorithms_testing.py
+```
 
+**Características:**
+- Validação estatística em múltiplos tamanhos de problemas
+- Exportação de métricas de performance (JSON + CSV)
+- Monitoramento de recursos do sistema
+- Salvo em: `results/focused_four_algorithms/`
+
+#### **Complete Dataset Scalability Testing (5-10 minutes) | Teste de Escalabilidade Completo do Dataset (5-10 minutos)**
+
+##### English
 ```bash
 # Comprehensive testing: 7 problem sizes (20, 30, 50, 80, 120, 150, 200 cities)
 uv run python src/testing/complete_four_algorithms_dataset.py
 ```
 
 **Analysis includes:**
-
 - Full 1000-node Brazilian transportation network
 - Scalability validation up to 200 cities
 - Computational complexity verification
 - Statistical confidence intervals
 - Saved to: `results/complete_four_algorithms_dataset/`
+
+##### Português
+```bash
+# Teste abrangente: 7 tamanhos de problemas (20, 30, 50, 80, 120, 150, 200 cidades)
+uv run python src/testing/complete_four_algorithms_dataset.py
+```
+
+**Análise inclui:**
+- Rede de transporte brasileira completa com 1000 nós
+- Validação de escalabilidade até 200 cidades
+- Verificação de complexidade computacional
+- Intervalos de confiança estatística
+- Salvo em: `results/complete_four_algorithms_dataset/`
 
 ### **🎮 Interactive Visualization System**
 
@@ -1553,69 +1736,113 @@ Research Impact:
 
 ---
 
-## 📄 License and Usage Rights
+## 📄 License and Usage Rights | Licença e Direitos de Uso
 
-### **MIT License - Academic and Commercial Freedom**
+### **MIT License - Academic and Commercial Freedom | Licença MIT - Liberdade Acadêmica e Comercial**
 
+#### English
 This project is licensed under the **MIT License**, providing maximum flexibility for academic research, educational use, and commercial applications.
 
-#### **Academic and Research Use**
+#### Português
+Este projeto está licenciado sob a **Licença MIT**, proporcionando máxima flexibilidade para pesquisa acadêmica, uso educacional e aplicações comerciais.
 
+### **Academic and Research Use | Uso Acadêmico e de Pesquisa**
+
+#### English
 - **Educational Freedom:** Complete access for academic projects and research
 - **Publication Rights:** Results and methodologies can be included in academic publications
 - **Modification Rights:** Algorithm implementations can be modified for research purposes
 - **Attribution Requirements:** Appropriate citation required for academic use
 
-#### **Commercial Applications**
+#### Português
+- **Liberdade Educacional:** Acesso completo para projetos acadêmicos e pesquisa
+- **Direitos de Publicação:** Resultados e metodologias podem ser incluídos em publicações acadêmicas
+- **Direitos de Modificação:** Implementações de algoritmos podem ser modificadas para fins de pesquisa
+- **Requisitos de Atribuição:** Citação apropriada necessária para uso acadêmico
 
+### **Commercial Applications | Aplicações Comerciais**
+
+#### English
 - **Production Deployment:** Suitable for commercial transportation and logistics applications
 - **Modification and Integration:** Can be integrated into commercial optimization systems
 - **Distribution Rights:** Can be included in commercial software products
 - **No Restrictions:** No limitations on commercial use or revenue generation
 
+#### Português
+- **Implementação em Produção:** Adequado para aplicações comerciais de transporte e logística
+- **Modificação e Integração:** Pode ser integrado em sistemas comerciais de otimização
+- **Direitos de Distribuição:** Pode ser incluído em produtos de software comerciais
+- **Sem Restrições:** Nenhuma limitação no uso comercial ou geração de receita
+
 ---
 
-## 👥 Authors, Contributors, and Acknowledgments
+## 👥 Authors, Contributors, and Acknowledgments | Autores, Colaboradores e Agradecimentos
 
-### **🎯 Core Development Team**
+### **🎯 Core Development Team | Equipe Principal de Desenvolvimento**
 
+#### English
 - **Lead Researcher/Developer:** FIAP Tech Challenge Implementation Team
 - **Algorithm Design:** Based on established optimization literature with novel adaptations
 - **Mathematical Foundations:** Comprehensive formulation and complexity analysis
 - **Software Architecture:** Production-quality modular design and implementation
 
-### **📚 Academic Foundation and References**
+#### Português
+- **Pesquisador/Desenvolvedor Principal:** Equipe de Implementação do FIAP Tech Challenge
+- **Design de Algoritmos:** Baseado na literatura de otimização estabelecida com adaptações inovadoras
+- **Fundamentos Matemáticos:** Formulação abrangente e análise de complexidade
+- **Arquitetura de Software:** Design modular de qualidade de produção e implementação
 
-#### **Core Algorithm Literature**
+### **📚 Academic Foundation and References | Fundamentos Acadêmicos e Referências**
+
+#### **Core Algorithm Literature | Literatura Principal de Algoritmos**
 
 - **Ant Colony Optimization:** Dorigo, M. & Stützle, T. (2004). "Ant Colony Optimization"
 - **Particle Swarm Optimization:** Kennedy, J. & Eberhart, R. (1995). "Particle Swarm Optimization"
 - **Graph Algorithms:** Cormen, T.H. et al. (2009). "Introduction to Algorithms"
 - **TSP Theory:** Lawler et al. (1985). "The Traveling Salesman Problem"
 
-### **🙏 Special Acknowledgments**
+### **🙏 Special Acknowledgments | Agradecimentos Especiais**
 
+#### English
 - **FIAP (Faculdade de Informática e Administração Paulista):** For providing the technical challenge framework
 - **Brazilian Transportation Infrastructure:** For providing real-world geographic data
 - **Open Source Community:** For the exceptional Python scientific computing ecosystem
 - **Python Scientific Stack:** NumPy, Pandas, NetworkX, SciPy, Pygame, Matplotlib
 
+#### Português
+- **FIAP (Faculdade de Informática e Administração Paulista):** Por fornecer a estrutura do desafio técnico
+- **Infraestrutura de Transporte Brasileira:** Por fornecer dados geográficos do mundo real
+- **Comunidade Open Source:** Pelo excepcional ecossistema de computação científica Python
+- **Stack Científico Python:** NumPy, Pandas, NetworkX, SciPy, Pygame, Matplotlib
+
 ---
 
-## 📞 Contact Information and Support Resources
+## 📞 Contact Information and Support Resources | Informações de Contato e Recursos de Suporte
 
-### **📧 Primary Communication Channels**
+### **📧 Primary Communication Channels | Canais Principais de Comunicação**
 
+#### English
 - **GitHub Repository:** [FIAP-Tech-Challenge](https://github.com/SamoraDC/FIAP-Tech-Challenge)
 - **Complete Documentation:** [Technical Implementation Guide](README.md)
 
-### **🎓 Academic and Research Support**
+#### Português
+- **Repositório GitHub:** [FIAP-Tech-Challenge](https://github.com/SamoraDC/FIAP-Tech-Challenge)
+- **Documentação Completa:** [Guia de Implementação Técnica](README.md)
 
+### **🎓 Academic and Research Support | Suporte Acadêmico e de Pesquisa**
+
+#### English
 - **Algorithm Questions:** Open GitHub issues with detailed mathematical questions
 - **Performance Analysis:** Refer to empirical results section and statistical validation
 - **Research Collaboration:** Contact through GitHub for research partnership opportunities
 - **Educational Use:** Complete documentation and examples provided for classroom integration
 
+#### Português
+- **Questões sobre Algoritmos:** Abra issues no GitHub com questões matemáticas detalhadas
+- **Análise de Performance:** Consulte a seção de resultados empíricos e validação estatística
+- **Colaboração em Pesquisa:** Entre em contato através do GitHub para oportunidades de parceria em pesquisa
+- **Uso Educacional:** Documentação completa e exemplos fornecidos para integração em sala de aula
+
 ---
 
-*Developed by Davi Samora*
+*Developed by Davi Samora | Desenvolvido por Davi Samora*
